@@ -4,6 +4,7 @@ Powershell script to build active directory forest and populate AD with random A
 ### Usage:
 
 . .\Invoke-PopulateAD.ps1
+
 Invoke-LoadADObjects -DomainName rootdse.org -LimitUsers 25
 
 ![ad_builder](https://user-images.githubusercontent.com/46210620/147859488-08b682ba-6780-4ec2-86f0-377705a26905.gif)
